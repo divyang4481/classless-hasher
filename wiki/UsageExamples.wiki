@@ -1,0 +1,73 @@
+#summary Examples of how to use Hasher.
+
+===Calculate the SHA1 Hash of a String===
+{{{
+using System;
+using Classless.Hasher;
+using Classless.Hasher.Utilities;
+
+namespace TestProgram {
+	public class TestProgram {
+		static void Main(string[] args) {
+			// Get the array of bytes representing the string.
+			byte[] input = System.Text.Encoding.ASCII.GetBytes("Hello World!");
+
+			// Instantiate our hashing algorithm.
+			SHA1 shaHasher = new SHA1();
+
+			// Calculate the hash and write it to the console.
+			Console.WriteLine(Conversions.ByteToHexadecimal(shaHasher.ComputeHash(input)));
+		}
+	}
+}
+}}}
+
+
+===Calculate a PKZIP-Compatible CRC Checksum of a String===
+{{{
+using System;
+using Classless.Hasher;
+using Classless.Hasher.Utilities;
+
+namespace TestProgram {
+	public class TestProgram {
+		static void Main(string[] args) {
+			// Get the array of bytes representing the string.
+			byte[] input = System.Text.Encoding.ASCII.GetBytes("Hello World!");
+
+			// Instantiate our hashing algorithm.
+			CRC crcHasher = new CRC(CRCParameters.GetParameters(CRCStandard.CRC32));
+
+			// Calculate the hash and write it to the console.
+			Console.WriteLine(Conversions.ByteToHexadecimal(crcHasher.ComputeHash(input)));
+		}
+	}
+}
+}}}
+
+
+===Calculate the MD5 Fingerprint of a File===
+{{{
+using System;
+using System.IO;
+using Classless.Hasher;
+using Classless.Hasher.Utilities;
+
+namespace TestProgram {
+	public class TestProgram {
+		static void Main(string[] args) {
+			// Open the file specified on the command line.
+			FileStream inputFile = new FileStream(args[0], FileMode.Open, FileAccess.Read);
+
+			// Instantiate our hashing algorithm.
+			MD5 md5Hasher = new MD5();
+
+			// Calculate the hash and write it to the console.
+			Console.WriteLine(Conversions.ByteToHexadecimal(md5Hasher.ComputeHash(inputFile)));
+
+			// Clean up.
+			inputFile.Close();
+		}
+	}
+}
+}}}
