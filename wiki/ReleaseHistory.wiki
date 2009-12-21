@@ -16,8 +16,15 @@
  * Improved thread safety a bit by lowering the chances of a deadlock.
  * Switched to Sandcastle for documentation generation.
  * Added algorithms:
-  * XOR8
+  * AP
+  * BKDR
+  * DJB
+  * JS
+  * PJW32
+  * RS
+  * SDBM
   * Sum
+  * XOR8
 
 
 ==Version [http://code.google.com/p/classless-hasher/downloads/list?can=1&q=v0.7 0.7] (2/25/2006)==
