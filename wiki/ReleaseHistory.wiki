@@ -7,6 +7,7 @@
  * Refactored the Cksum algorithm to leverage the CRC code.
  * Completely re-arranged the built-in CRC standards after finding a better source of definitions.
  * Refactored HMAC. It now only works with algorithms derived from BlockHashAlgorithm.
+ * Renamed a ton of classes and enumerations to be more consistently named.
  * Added a much more thorough set of test vectors.
  * Fixed Whirlpool (for real this time!).
  * Fixed SumSysV.
