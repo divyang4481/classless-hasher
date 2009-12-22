@@ -19,6 +19,7 @@
   * AP
   * BKDR
   * DJB
+  * Fletcher
   * JS
   * PJW32
   * RS
