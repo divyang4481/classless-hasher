@@ -10,6 +10,7 @@
 || ElfHash || 32 || UNIX ELF format hash for object files ||  || 0.5 ||
 || FCS16 || 16 || RFC [ftp://ftp.rfc-editor.org/in-notes/rfc1331.txt 1331], Fast Frame Check Sequence ||  || 0.2 ||
 || FCS32 || 32 || RFC [ftp://ftp.rfc-editor.org/in-notes/rfc1331.txt 1331], Fast Frame Check Sequence ||  || 0.2 ||
+|| Fletcher || 8, 16, 32 || RFC [ftp://ftp.rfc-editor.org/in-notes/rfc1146.txt 1146] ||  || 0.8 ||
 || FNV || 32, 64 || [http://www.isthe.com/chongo/tech/comp/fnv/index.html Glenn Fowler, Landon Curt Noll, Phong Vo] ||  || 0.5 ||
 || GHash || 32 ||  ||  || 0.2 ||
 || GOSTHash || 256 || 1994, GOST-R-34.11-94, Gosudarstvennyi Standard of Russian Federation || [http://www.oid-info.com/get/1.2.643.2.2.9 1.2.643.2.2.9], [http://www.oid-info.com/get/1.2.643.2.2.20 1.2.643.2.2.20], [http://www.oid-info.com/get/1.2.643.2.2.1.1.7 1.2.643.2.2.1.1.7] || 0.2 ||
