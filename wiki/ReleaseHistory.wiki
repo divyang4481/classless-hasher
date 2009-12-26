@@ -11,8 +11,10 @@
  * Added a much more thorough set of test vectors.
  * Fixed Whirlpool (for real this time!).
  * Fixed SumSysV.
+ * Fixed bugs with CRC and Xum32.
  * Renamed JHash to JenkinsHash.
  * Cleaned up the HashAlgorithm.Create() factory to be more thorough and accepting of different naming styles.
+ * Added support for advanced structures like Hash Chains and Lists.
  * Expanded unit test coverage.
  * Improved thread safety a bit by lowering the chances of a deadlock.
  * Switched to Sandcastle for documentation generation.
