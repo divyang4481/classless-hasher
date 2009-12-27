@@ -5,11 +5,11 @@
 || AP || 32 || [http://www.partow.net/programming/hashfunctions/#APHashFunction Arash Partow] ||  || 0.8 ||
 || BKDR || 32 || Brian Kernighan, Dennis Ritchie, "The C Programming Language" ||  || 0.8 ||
 || Cksum || 32 || POSIX [http://standards.ieee.org/reading/ieee/std/posix/1003.2-1992_INT_DEC94.pdf 1003.2-1992] ||  || 0.4 ||
-|| CRC || 8, 16, 24, 32, 64 || See ProvidedCrcStandards ||  || 0.1 ||
+|| CRC || 8, 16, 24, 32, 40, 48, 56, 64 || See ProvidedCrcStandards ||  || 0.1 ||
+|| DHA256 || 256 || 2005, [http://csrc.nist.gov/groups/ST/hash/documents/ChangD_DHA256.pdf Jesang Lee, Donghoon Chang, Hyun Kim, Eunjin Lee, Deukjo Hong, Jaechul Sung, Seokhie Hong, Sangjin Lee] ||  || 0.8 ||
 || DJB || 32 || Daniel J. Bernstein ||  || 0.8 ||
 || ElfHash || 32 || UNIX ELF format hash for object files ||  || 0.5 ||
-|| FCS16 || 16 || RFC [ftp://ftp.rfc-editor.org/in-notes/rfc1331.txt 1331], Fast Frame Check Sequence ||  || 0.2 ||
-|| FCS32 || 32 || RFC [ftp://ftp.rfc-editor.org/in-notes/rfc1331.txt 1331], Fast Frame Check Sequence ||  || 0.2 ||
+|| FCS || 16, 32 || RFC [ftp://ftp.rfc-editor.org/in-notes/rfc1331.txt 1331], Fast Frame Check Sequence ||  || 0.2 ||
 || Fletcher || 8, 16, 32 || RFC [ftp://ftp.rfc-editor.org/in-notes/rfc1146.txt 1146] ||  || 0.8 ||
 || FNV || 32, 64 || [http://www.isthe.com/chongo/tech/comp/fnv/index.html Glenn Fowler, Landon Curt Noll, Phong Vo] ||  || 0.5 ||
 || GHash || 32 ||  ||  || 0.2 ||
