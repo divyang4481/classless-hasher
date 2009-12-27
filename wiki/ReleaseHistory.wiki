@@ -22,6 +22,7 @@
  * Added algorithms:
   * AP
   * BKDR
+  * DHA256
   * DJB
   * Fletcher
   * HAS-160
