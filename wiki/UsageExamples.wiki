@@ -46,7 +46,7 @@ namespace TestProgram {
 }}}
 
 
-===Calculate the MD5 Fingerprint of a File===
+===Calculate the MD5 Hash of a File===
 {{{
 using System;
 using System.IO;
@@ -64,6 +64,34 @@ namespace TestProgram {
 
 			// Calculate the hash and write it to the console.
 			Console.WriteLine(Conversions.ByteToHexadecimal(md5Hasher.ComputeHash(inputFile)));
+
+			// Clean up.
+			inputFile.Close();
+		}
+	}
+}
+}}}
+
+
+===Calculate the Tiger Tree Hash of a File===
+{{{
+using System;
+using System.IO;
+using Classless.Hasher;
+using Classless.Hasher.Methods;
+using Classless.Hasher.Utilities;
+
+namespace TestProgram {
+	public class TestProgram {
+		static void Main(string[] args) {
+			// Open the file specified on the command line.
+			FileStream inputFile = new FileStream(args[0], FileMode.Open, FileAccess.Read);
+
+			// Instantiate our hashing algorithm.
+			HashTree treeHasher = new HashTree(new Tiger(TigerParameters.GetParameters(TigerStandard.Tiger192Bit)), 1024);
+
+			// Construct the tree and write the Top hash to the console.
+			Console.WriteLine(Conversions.ByteToHexadecimal(treeHasher.ComputeHash(inputFile)));
 
 			// Clean up.
 			inputFile.Close();
