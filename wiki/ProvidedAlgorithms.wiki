@@ -5,7 +5,7 @@
 || AP || 32 || [http://www.partow.net/programming/hashfunctions/#APHashFunction Arash Partow] ||  || 0.8 ||
 || BKDR || 32 || Brian Kernighan, Dennis Ritchie, "The C Programming Language" ||  || 0.8 ||
 || Cksum || 32 || POSIX [http://standards.ieee.org/reading/ieee/std/posix/1003.2-1992_INT_DEC94.pdf 1003.2-1992] ||  || 0.4 ||
-|| CRC || 8, 16, 24, 32, 40, 48, 56, 64 || See ProvidedCrcStandards ||  || 0.1 ||
+|| CRC || 8, 16, 24, 32, 40, 48, 56, 64 || See ProvidedCrcStandards || Crc32Bit=[http://www.oid-info.com/get/1.3.6.1.4.1.11591.14.1 1.3.6.1.4.1.11591.14.1] || 0.1 ||
 || DHA256 || 256 || 2005, [http://csrc.nist.gov/groups/ST/hash/documents/ChangD_DHA256.pdf Jesang Lee, Donghoon Chang, Hyun Kim, Eunjin Lee, Deukjo Hong, Jaechul Sung, Seokhie Hong, Sangjin Lee] ||  || 0.8 ||
 || DJB || 32 || Daniel J. Bernstein ||  || 0.8 ||
 || ElfHash || 32 || UNIX ELF format hash for object files ||  || 0.5 ||
@@ -41,6 +41,7 @@
 || Sum (BSD) || 16 || BSD Sum Algorithm ||  || 0.4 ||
 || Sum (SYSV) || 16 || System V Sum Algorithm ||  || 0.4 ||
 || Tiger || 128, 160, 192 || 1996, [http://www.cs.technion.ac.il/~biham/Reports/Tiger/ Ross Anderson and Eli Biham] || [http://www.oid-info.com/get/1.3.6.1.4.1.11591.12.2 1.3.6.1.4.1.11591.12.2] || 0.1 ||
+|| Tiger2 || 128, 160, 192 || 1996, [http://www.cs.technion.ac.il/~biham/Reports/Tiger/ Ross Anderson and Eli Biham] ||  || 0.8 ||
 || Whirlpool || 512 || 2000, [http://planeta.terra.com.br/informatica/paulobarreto/WhirlpoolPage.html Paulo Barreto and Vincent Rijmen] || [http://www.oid-info.com/get/1.0.10118.3.0.55 1.0.10118.3.0.55] || 0.2 ||
 || XOR8 || 8 ||  ||  || 0.8 ||
 || XUM32 || 32 || Ilya O. Levin, [http://www.nattyware.com/xum32txt.html Nattyware] ||  || 0.5 ||
