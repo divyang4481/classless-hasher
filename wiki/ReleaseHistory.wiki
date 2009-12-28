@@ -1,11 +1,11 @@
 #summary A history of the releases of Hasher.
 
 
-==Version 0.8 (TBD)==
- * Hasher is re-reborn.
+==Version 0.8 (Build TBD; TBD)==
+ * Hasher is re-reborn!
  * Moved project to Google Code (Sourceforge is really heinous).
  * Refactored the Cksum algorithm to leverage the CRC code.
- * Completely re-arranged the built-in CRC standards after finding a better source of definitions.
+ * Completely re-arranged the built-in [ProvidedCrcStandards CRC standards] after finding a better source of definitions.
  * Refactored HMAC. It now only works with algorithms derived from BlockHashAlgorithm.
  * Renamed a ton of classes and enumerations to be more consistently named.
  * Enhanced Tiger to take parameters for specifying result hash length.
@@ -16,10 +16,11 @@
  * Renamed JHash to JenkinsHash.
  * Cleaned up the HashAlgorithm.Create() factory to be more dynamic.
  * Added support for advanced structures like Hash Chains, Lists, and Trees.
- * Expanded unit test coverage.
+ * Greatly expanded unit test coverage.
  * Improved thread safety a bit by lowering the chances of a deadlock.
  * Switched to Sandcastle for documentation generation.
- * Added algorithms:
+ * Now only compiles under v2.0-compatible versions of the CLR.
+ * Added [ProvidedAlgorithms algorithms]:
   * AP
   * BKDR
   * DHA256
@@ -35,7 +36,7 @@
   * XOR8
 
 
-==Version [http://code.google.com/p/classless-hasher/downloads/list?can=1&q=v0.7 0.7] (2/25/2006)==
+==Version [http://code.google.com/p/classless-hasher/downloads/list?can=1&q=v0.7 0.7] (Build 2247; 2/25/2006)==
  * Hasher rises from the dead!
  * Fixed CRCStandards for CRC8 and CRC32.
  * Fixed CRC handling when the Order was 64bits.
@@ -48,7 +49,7 @@
  * Fixed the NAnt build script to better support Mono and .NET v2.0.
 
 
-==Version [http://code.google.com/p/classless-hasher/downloads/list?can=1&q=v0.6 0.6] (11/20/2004)==
+==Version [http://code.google.com/p/classless-hasher/downloads/list?can=1&q=v0.6 0.6] (Build 1785; 11/20/2004)==
  * The assembly successfully compiles under Mono v1.0, .NET v1.0, and .NET v1.1.
  * NAnt build script added to project.
  * Removed the old HasherTester project (it was a goofy program at best).
@@ -62,7 +63,7 @@
  * Fixed a bug with SHA384 and SHA512 where not enough room was reserved for the bit count.
 
 
-==Version [http://code.google.com/p/classless-hasher/downloads/list?can=1&q=v0.5 0.5] (6/25/2004)==
+==Version [http://code.google.com/p/classless-hasher/downloads/list?can=1&q=v0.5 0.5] (Build 1637; 6/25/2004)==
  * This project is now released under the Mozilla Public License v1.1.
  * The project has been upgraded to VS.NET 2003. Now compiled against/for .NET v1.1.
  * Major restructuring of the classes. I hope no one was married to the original structure. This will most likely be the final organization going into the v1.0 baseline.
