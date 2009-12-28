@@ -2,7 +2,7 @@
 #labels Featured
 
 
-==Version 0.8 (Build TBD; TBD)==
+==Version 0.8 (Build 3649; 12/28/2009)==
  * Hasher is re-reborn!
  * Moved project to Google Code (Sourceforge is really heinous).
  * Refactored the Cksum algorithm to leverage the CRC code.
