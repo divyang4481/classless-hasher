@@ -13,7 +13,7 @@ namespace TestProgram {
 			byte[] input = System.Text.Encoding.ASCII.GetBytes("Hello World!");
 
 			// Instantiate our hashing algorithm.
-			SHA1 shaHasher = new SHA1();
+			Sha1 shaHasher = new Sha1();
 
 			// Calculate the hash and write it to the console.
 			Console.WriteLine(Conversions.ByteToHexadecimal(shaHasher.ComputeHash(input)));
@@ -36,7 +36,7 @@ namespace TestProgram {
 			byte[] input = System.Text.Encoding.ASCII.GetBytes("Hello World!");
 
 			// Instantiate our hashing algorithm.
-			CRC crcHasher = new CRC(CRCParameters.GetParameters(CRCStandard.CRC32));
+			Crc crcHasher = new Crc(CrcParameters.GetParameters(CrcStandard.Crc32Bit));
 
 			// Calculate the hash and write it to the console.
 			Console.WriteLine(Conversions.ByteToHexadecimal(crcHasher.ComputeHash(input)));
@@ -88,7 +88,7 @@ namespace TestProgram {
 			FileStream inputFile = new FileStream(args[0], FileMode.Open, FileAccess.Read);
 
 			// Instantiate our hashing algorithm.
-			HashTree treeHasher = new HashTree(new Tiger(TigerParameters.GetParameters(TigerStandard.Tiger192Bit)), 1024);
+			HashTree treeHasher = new HashTree(new Tiger(TigerParameters.GetParameters(TigerStandard.Tiger192BitVersion1)), 1024);
 
 			// Construct the tree and write the Top hash to the console.
 			Console.WriteLine(Conversions.ByteToHexadecimal(treeHasher.ComputeHash(inputFile)));
