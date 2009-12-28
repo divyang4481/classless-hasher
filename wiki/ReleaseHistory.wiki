@@ -14,7 +14,7 @@
  * Fixed SumSysV.
  * Fixed bugs with CRC and Xum32.
  * Renamed JHash to JenkinsHash.
- * Cleaned up the HashAlgorithm.Create() factory to be more thorough and accepting of different naming styles.
+ * Cleaned up the HashAlgorithm.Create() factory to be more dynamic.
  * Added support for advanced structures like Hash Chains, Lists, and Trees.
  * Expanded unit test coverage.
  * Improved thread safety a bit by lowering the chances of a deadlock.
