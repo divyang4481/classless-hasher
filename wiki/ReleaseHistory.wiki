@@ -1,4 +1,5 @@
 #summary A history of the releases of Hasher.
+#labels Featured
 
 
 ==Version 0.8 (Build TBD; TBD)==
