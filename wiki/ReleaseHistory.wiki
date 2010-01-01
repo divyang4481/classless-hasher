@@ -2,6 +2,18 @@
 #labels Featured
 
 
+==Version 0.9 (Build TBD; TBD)==
+ * Optimized numerous algorithms to gain some processing speed. Notable enhancements:
+  * Dha256 is about 132% faster.
+  * Haval is about 55% faster.
+  * MD4 is about 40% faster.
+  * MD5 is about 66% faster.
+  * RipeMD128/256 is about 28% faster.
+  * RipeMD160/320 is about 72% faster.
+  * Sha0/1 are about 75% faster.
+  * Sha224/256/384/512 are about 160% faster.
+
+
 ==Version [http://code.google.com/p/classless-hasher/downloads/list?can=1&q=v0.8 0.8] (Build 3649; 12/28/2009)==
  * Hasher is re-reborn!
  * Moved project to Google Code (Sourceforge is really heinous).
