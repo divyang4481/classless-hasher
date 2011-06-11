@@ -1,6 +1,11 @@
 #summary The list of hash and checksum algorithms provided by Hasher.
 #labels Featured
 
+=Project hosting has been moved to Bitbucket:=
+==https://bitbucket.org/jayclassless/classless-hasher/==
+
+
+
 || *Algorithm* || *Digest Size (bits)* || *Notes* || *Object Identifier (OID)* || *Version Introduced* ||
 || Adler32 || 32 || RFC [ftp://ftp.rfc-editor.org/in-notes/rfc1950.txt 1950], ZLIB Compressed Data Format Specification version 3.3 ||  || 0.1 ||
 || AP || 32 || [http://www.partow.net/programming/hashfunctions/#APHashFunction Arash Partow] ||  || 0.8 ||
