@@ -1,5 +1,10 @@
 #summary Examples of how to use Hasher.
 
+=Project hosting has been moved to Bitbucket:=
+==https://bitbucket.org/jayclassless/classless-hasher/==
+
+
+
 ===Calculate the SHA1 Hash of a String===
 {{{
 using System;
