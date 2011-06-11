@@ -1,5 +1,10 @@
 #summary The list of built-in CRC standards provided by Hasher.
 
+=Project hosting has been moved to Bitbucket:=
+==https://bitbucket.org/jayclassless/classless-hasher/==
+
+
+
 Contrary to popular belief, there is more than one way to perform a Cyclic Redundency Check. Classless.Hasher will support polynomials that are 8, 16, 32 or 64 bits long, as well as an assortment of algorithm options. Classless.Hasher has built-in support for the following standards:
 
 
