@@ -1,8 +1,12 @@
 #summary A history of the releases of Hasher.
 #labels Featured
 
+=Project hosting has been moved to Bitbucket:=
+==https://bitbucket.org/jayclassless/classless-hasher/==
 
-==Version 0.9 (Build TBD; TBD)==
+
+
+==Version 0.9 (Build 4179; 6/11/2011)==
  * Optimized numerous algorithms to gain some processing speed. Notable enhancements:
   * Dha256 is about 132% faster.
   * Haval is about 55% faster.
@@ -12,7 +16,8 @@
   * RipeMD160/320 is about 72% faster.
   * Sha0/1 are about 75% faster.
   * Sha224/256/384/512 are about 160% faster.
-
+ * Upgraded project to Visual Studio 2010.
+ * Made modifications to support Silverlight applications.
 
 ==Version [http://code.google.com/p/classless-hasher/downloads/list?can=1&q=v0.8 0.8] (Build 3649; 12/28/2009)==
  * Hasher is re-reborn!
